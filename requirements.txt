@@ -1,2 +1,22 @@
-PyQt6==6.5.0
-numpy==1.21.0
+# Main dependencies
+PyQt6==6.7.1
+numpy==2.0.0
+Pillow==10.4.0
+
+# Testing and code quality
+pytest==8.3.2
+coverage==7.6.0
+pylint==3.2.6
+black==24.8.0
+
+# Documentation
+Sphinx>=5,<8
+sphinx-rtd-theme>=2.0.0
+
+# Build and distribution
+setuptools==72.1.0
+wheel==0.43.0
+
+# Additional utilities
+tqdm==4.66.4  # For progress bars
+requests==2.32.3  # For HTTP requests, if needed
