@@ -1,0 +1,22 @@
+# Include all Python files
+recursive-include app *.py
+
+# Include all image assets
+recursive-include app/assets/images *.png
+
+# Include all sound assets
+recursive-include app/assets/sounds *.wav
+recursive-include app/assets/sounds *.mp3
+
+# Include any other configuration or data files
+include README.md
+include LICENSE
+include requirements.txt
+
+# Exclude any development or temporary files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.log
+global-exclude .git*
+global-exclude __pycache__
+global-exclude *.egg-info
